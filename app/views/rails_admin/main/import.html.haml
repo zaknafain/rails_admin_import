@@ -56,7 +56,7 @@
             = select_tag "associations[#{field.name}]",
               options_for_select(@import_model.associated_model_fields(field),
                 Array.wrap(@import_model.associated_config(field).mapping_key).first.to_s),
-              data: { enumeration: true }
+              data: { enumeration: true, options: "{}" }
 
   %br
   .form-actions
