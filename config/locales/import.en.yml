@@ -16,7 +16,6 @@ en:
       enumeration:
         add: Add new
         choose_all: Choose all
-        chosen: 'Chosen %{name}'
         clear_all: Clear all
         down: Down
         remove: Remove
