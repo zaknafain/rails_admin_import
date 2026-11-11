@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # CI dependencies
 gem 'rails', '~> 6.1'
-gem 'rails_admin', '~> 3.0.0'
+gem 'rails_admin', '~> 3.3.1'
 gem 'sassc-rails'
 
 case ENV['CI_ORM']
@@ -16,7 +16,7 @@ else
   when 'postgresql'
     gem 'pg', '>= 0.18'
   else
-    gem 'sqlite3', '~> 1.4.2'
+    gem 'sqlite3', '~> 2.10.2'
   end
 end
 
